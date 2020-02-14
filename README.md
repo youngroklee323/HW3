@@ -15,8 +15,12 @@ What code makes the "lawnmower" come by? How often does it come by?
     rect(0, 0, width, height-15);
     h = 10;
 
+
 What's the point of the h variable?
 
+it is the speed of grass growth. it changes the grass growing speed
 
 
 What does the -10 do in the second and fourth arguments of the line function, height-10-random(h)? Why is it there?
+
+height - 10 // this is the starting point.
