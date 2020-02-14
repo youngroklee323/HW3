@@ -23,4 +23,4 @@ it is the speed of grass growth. it changes the grass growing speed
 
 What does the -10 do in the second and fourth arguments of the line function, height-10-random(h)? Why is it there?
 
-height - 10 // this is the starting point.
+height - 10 // this is the starting point. -10 is the height of the ground, so if we do not user -10, the grass will grow from undereath of the ground.
